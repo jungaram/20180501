@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>list_예제</title>
+	<link rel="stylesheet" type="text/css" href="normalize.css">
+	<style>
+
+
+       a:link, a:active, a:visited, a:hover{ text-decoration:none; }
+       a:link, a:active, a:visited{ color: white; }
+       a:hover{color: #ff909e; font-weight: bold; }
+       body { background: black; }
+
+	    nav{width: 1000px; margin: auto; height:44px; }
+		nav #logo{font-weight: bold; width: 200px; background: #30185b; height:44px; float: left; }
+		nav #logo a{ display: block;  text-align: center; line-height: 44px;}
+		nav #logo a:hover{ color: #9377c7; }
+
+
+		nav #menuList{ float: right; margin: 0; padding: 0;}
+		nav #menuList .main-menu-item{ list-style: none; float: left;
+			width: 150px; height: 44px; }
+		nav #menuList a{  display: block; height: 44px; text-align: center;
+			line-height: 44px; color: white;}
+		nav #menuList a:hover{ color: #9377c7; background: #30185b;}
+
+		.moon {margin: auto; background: #ff909e; width: 1000px; height: 560px; overflow: hidden;}
+		.moon img{width: 100%}
+		}
+
+
+
+		</style>
+</head>
+<body>
+	<nav>
+		<div id="logo">
+			<a href="index.html">TO THE MOON</a>
+		</div>
+		<ul id="menuList">
+			<li class="main-menu-item">
+				<a href="http://naver.com" target="_blank">CHARACTER</a>
+				</li>
+			<li class="main-menu-item">
+				<a href="http://naver.com" target="_blank">SINOPSIS</a>
+				</li>
+			<li class="main-menu-item">
+				<a href="http://naver.com" target="_blank">HOMEPAGE</a>
+					</li>
+			<li class="main-menu-item">
+				<a href="http://naver.com" target="_blank">TWITTER</a>
+				</li>
+		</ul>
+
+	</nav>
+
+	<div class="moon">
+		<img src="./img/tothemoon.jpg">
+</body>
+</html>
